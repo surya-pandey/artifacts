@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="42983" started-at="2020-01-04T23:45:10 IST" finished-at="2020-01-04T23:45:53 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="42983" started-at="2020-01-04T23:45:10 IST" finished-at="2020-01-04T23:45:53 IST">
+      <class name="com.testing.amazon.amazontest1.test">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testing.amazon.amazontest1.test@6ee52dcd]" name="setUp" is-config="true" duration-ms="15183" started-at="2020-01-04T23:45:10 IST" finished-at="2020-01-04T23:45:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="testCal()[pri:0, instance:com.testing.amazon.amazontest1.test@6ee52dcd]" name="testCal" duration-ms="27285" started-at="2020-01-04T23:45:25 IST" finished-at="2020-01-04T23:45:52 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-SERVER', ip: '169.254.109.80', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_231'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {app: C:\Users\Administrator\Down..., appActivity: com.amazon.mShop.splashscre..., appPackage: in.amazon.mShop.android.sho..., databaseEnabled: false, desired: {app: C:\Users\Administrator\Down..., appActivity: com.amazon.mShop.splashscre..., appPackage: in.amazon.mShop.android.sho..., deviceName: Nokia 6.1 plus, noReset: true, platformName: android, platformVersion: 9.0, udid: DRGID18090212089}, deviceApiLevel: 28, deviceManufacturer: HMD Global, deviceModel: Nokia 6.1 Plus, deviceName: DRGID18090212089, deviceScreenDensity: 420, deviceScreenSize: 1080x2280, deviceUDID: DRGID18090212089, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 89, takesScreenshot: true, udid: DRGID18090212089, viewportRect: {height: 1976, left: 0, top: 89, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: c8005162-92f9-4e74-a047-da73e1dffe9e
+*** Element info: {Using=xpath, value=//android.view.View[@text = 'TV, Appliances, Electronics']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-SERVER', ip: '169.254.109.80', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_231'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {app: C:\Users\Administrator\Down..., appActivity: com.amazon.mShop.splashscre..., appPackage: in.amazon.mShop.android.sho..., databaseEnabled: false, desired: {app: C:\Users\Administrator\Down..., appActivity: com.amazon.mShop.splashscre..., appPackage: in.amazon.mShop.android.sho..., deviceName: Nokia 6.1 plus, noReset: true, platformName: android, platformVersion: 9.0, udid: DRGID18090212089}, deviceApiLevel: 28, deviceManufacturer: HMD Global, deviceModel: Nokia 6.1 Plus, deviceName: DRGID18090212089, deviceScreenDensity: 420, deviceScreenSize: 1080x2280, deviceUDID: DRGID18090212089, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 89, takesScreenshot: true, udid: DRGID18090212089, viewportRect: {height: 1976, left: 0, top: 89, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: c8005162-92f9-4e74-a047-da73e1dffe9e
+*** Element info: {Using=xpath, value=//android.view.View[@text = 'TV, Appliances, Electronics']}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)
+at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at com.testing.amazon.amazontest1.test.testCal(test.java:57)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCal -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.testing.amazon.amazontest1.test@6ee52dcd]" name="teardown" is-config="true" duration-ms="465" started-at="2020-01-04T23:45:52 IST" finished-at="2020-01-04T23:45:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.testing.amazon.amazontest1.test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
